@@ -17,8 +17,13 @@ public class WebConfig {
                         .allowedOrigins(
                             "http://localhost:8000", 
                             "http://localhost:5173", 
+                            "http://localhost:8080",
                             "http://127.0.0.1:8000",
-                            "https://codecompiler-ai.vercel.app"
+                            "https://codecompiler-ai.vercel.app",
+                            "https://javalabs.tech",
+                            "https://www.javalabs.tech",
+                            "http://javalabs.tech",
+                            "http://www.javalabs.tech"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
